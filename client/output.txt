@@ -1,0 +1,8 @@
+<Grid container spacing={3}>
+      <Grid item item xs={12} sm={6} className={classes.grid1}>/*or you an use item xs={6} sm={3}*/
+        <img src={img1} className={classes.img1} alt="home1" />
+        <Typography className={classes.font1}>Shoes made from wool</Typography>
+        <Typography className={classes.font2}>Now in new colors</Typography>
+        <Button className={classes.btn1}>Shop Men</Button>
+        <Button className={classes.btn2}>Shop Women</Button>
+      </Grid>

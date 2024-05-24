@@ -1,0 +1,55 @@
+Welcome everyone,
+ Thankyou for joining us today!
+ In this demo we are excited to introduce you to our customer session portal
+ an application designed to provide communication between customer and dedicated relationship manager.
+ Today we will walk you through the key feautures of our portal, showcasing how it centralizes communication.
+ Our goal is to provide you with a glimpse of how this portal can revoliutionize your customer engagement strategy.
+ 
+ So without further delay, lets dive into the demo and explore the customer session portal together.
+ 
+ 
+ 
+ 
+ 
+ ER_ DIAGRAM:
+ ============
+ Here we have 3 important entities customer, session and session History.
+  The customer entity represents individuals with whom the rm can interact.
+  Each customer is uniquely identified with customer ID.
+  The session entity representsthe interactions that a customer has with
+  our rm.
+ Each session is uniquly identified with sessionID.
+ The session History entity we are using to just to store the deleted sessions.
+ 
+ Here one customer can have multiple can have multiple sessions.
+ The relationship is established using a foreign key,which is the customerId in session.
+ 
+ 
+ 
+ 
+ CustomerController Class
+========================================================
+"Now, let's talk about the SessionController. 
+ This class acts as the gateway for handling HTTP requests related to session.
+ It communicates with our service layer."
+
+
+SessionService Interface and Implementation
+========================================================
+"Here we have the ICustomerService interface and its implementation, CustomerServiceImpl.
+ The service layer is where the business logic happens. 
+ It's responsible for creating, updating, deleting, and retrieving customer information.
+ The CustomerServiceImpl utilizes  Sessionrepository for data access and a ModelMapper for smooth data mapping."
+
+
+Interfaces - ISessionRepository and ISessionService
+========================================================
+"Interfaces like ISessionRepository and ISessionService play a crucial role in achieving flexibility and modularity.
+ They define contracts that our classes adhere to, enabling us to swap implementations seamlessly."
+
+
+Session Class
+========================================================
+"Our central figure here is the Customer class.
+ This class represents a customer in our system and encapsulates various details such as their name, date of birth, email, and more.
+ One interesting aspect is the composition relationship with Account and Transaction, indicating that a customer has a list of accounts and transactions."

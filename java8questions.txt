@@ -1,0 +1,104 @@
+1.Even and odd numbers
+       
+2. remove duplicate elements
+
+3.frequency of each element in an array or list
+     
+4.print elements in revere order
+       
+5. print decimals in reverse order
+
+6.convert or join the list of strings as a string with prefix delimeter and suffix
+  
+7.print the list of numbers divisible by 5
+
+8.find max and min from the list
+
+9.merge two unsorted arrays into single sorted array
+
+10.find three min numbers and three max numbers
+       
+11.two strings are anagrams or not
+       
+12.Sum of all digits in a Integer
+      
+13.largest second number in a list
+
+14.list of strings, sort them according to increasing order of their length
+
+15.common elements between two lists
+          
+16.reverse each word of a string
+      
+17.sum of 10 natural numbers
+       
+18.Print first 10 even number
+        
+19.palindrome or not
+       
+20.find list of strings starts with digit
+       
+21.find duplicates from a list
+
+22.find duplicate characters in a string
+       
+23.Find first repeated character in a string?
+
+24.Fibonacci series
+
+25.find last element from a list
+
+26.find age if they give date of birth
+      
+27.String ends with same first character
+        
+28.Given a list of integers, filter out the even numbers and square the remaining ones.
+      
+29.Given a list of words, group them by their lengths and count the number of words in each group.
+     
+30.Given a list of lists of integers, flatten it into a single list..
+ 
+31.Sort a list of strings in descending order of their lengths.
+   
+32.Calculate the average of a list of integers using Java 8 features.
+
+33.Generate a list of prime numbers within a given range using Java 8 features.
+
+
+
+34)find the occurance of given string in a sentence or a word.
+
+ Pattern pattern=Pattern.compile("ab");
+        Matcher matcher= pattern.matcher("abaabbabbbab");
+        while(matcher.find()){
+            count ++;
+
+        }
+
+
+                
+
+
+
+List2:::
+
+
+1. How many employees are there in the organization?
+2. Sort the List of Employee objects based on salary in Ascending order
+3. Sort the List of Employee objects based on salary in Descending order
+4. How many male and female employees are there in the organization?
+5. How many employees are there in each department?
+6. Get the name of all the department
+7. Find the average salary of the male and female employee
+8. Fetch the highest-paid male and female employee
+9. Fetch the lowest-paid male and female employee
+10. Get the highest-paid employee in each department
+11. Get the details of the highest paid employee in the organization?
+12. Find the average salary of each department?
+13. Get the details of the youngest male employee in the product development department?
+14. Who has the most working experience in the organization?
+15. Who is the oldest employee in the organization?
+16. What is the average salary and total salary of the whole organization?
+17. List down the names of all employees in each department?
+18. Separate the employees who are younger or equal to 30 years from those older than 30 years.
+

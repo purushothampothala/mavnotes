@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: podname1
+spec:
+  containers:
+  - name: my-container
+    image: purshudocker/demoexample2:latest
+	
